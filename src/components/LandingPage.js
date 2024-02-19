@@ -18,7 +18,7 @@ const LandingPage = () => {
         </div>
       </section>
       </div>
-      <Header />
+      <Header sticky={false}/>
       <div className="about-section">
         <h2>Front-End Focused, Full-Stack Adept</h2>
         <p>
@@ -60,7 +60,7 @@ const LandingPage = () => {
       <div className="about-section">
         <h2>My Story</h2>
         <p>
-          Ever since I was a kid, I've been drawn to computers. Whether I was lost in a good video game, dabbling in digital art, or just figuring out the ins and outs of Windows, you could always find me glued to a screen. High school was where I dipped my toes into the programming pond, trying my hand at C. I'll admit, I wasn't exactly a coding prodigy back then, but hey, at least I knew where I wanted to go next: straight to university for computer science
+          Ever since I was a kid, I've been drawn to computers. Whether I was lost in a good video game, dabbling in digital art, or just learning the ins and outs of Windows, you could always find me glued to a screen.
         </p>
         <p>
           High school was where I dipped my toes into the programming pond. I'll admit, I wasn't exactly a coding prodigy back then, but hey, at least I knew where I wanted to go next: straight to university for computer science.
@@ -73,7 +73,7 @@ const LandingPage = () => {
         </p>
         <hr></hr>
         <p>
-          <i>For a more traditional history of my work experience check out my <a href="https://www.linkedin.com/in/daniel-goresht-91618a101/details/experience/">Linkedin Page.</a></i>
+          <i>For a more traditional history of my work experience check out my <a href="https://www.linkedin.com/in/daniel-goresht-91618a101/details/experience/" target="_blank">Linkedin Page.</a></i>
         </p>
       </div>
 

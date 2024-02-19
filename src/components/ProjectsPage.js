@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "Campfire Stick",
     image: "/assets/campfire-stick.png",
-    description: "A webapp made using React for the front end and Firebase for the backend.  This website attempts to have people gather together anonymously to tell a story.  Users are not allowed to delete their messages after they submit, so becareful before submission.",
+    description: "A webapp made using React for the front end and Firebase for the backend.  This website attempts to have people gather together anonymously to tell a story.  Users are not allowed to delete their messages after they submit, so be careful before submission.",
     link: "https://dans-temp.github.io/campfire-stick/#/home"
   },
   {
@@ -19,7 +19,7 @@ const projectsData = [
     link: "https://ldjam.com/events/ludum-dare/51/dont-shoot-yourself"
   },
   {
-    id: 2,
+    id: 3,
     title: "Anime Wizard",
     image: "/assets/anime-wiz.png",
     description: "A React App I made that tries to guess what anime a screen shot is from.  Take an uncropped image from an anime and give it to the wizard to guess.  This app uses API calls and is powered by trace.moe.",
@@ -61,10 +61,10 @@ const projectsData = [
     link: "https://ldjam.com/events/ludum-dare/50/cards-of-the-cosmos"
   },
   {
-    id: 8,
+    id: 9,
     title: "My Ludum Dare Page",
     image: "/assets/ludum.png",
-    description: "The rest of my Ludum Dare games are on this page.  I have taken part in every Ludum Dare since 2022.  Feel free to check the rest of them out here.",
+    description: "The rest of my Ludum Dare games are on this page.  I have taken part in every Ludum Dare since 2021.  Feel free to check the rest of them out here.",
     link: "https://ldjam.com/users/bo-dangles/games"
   }
 ];
@@ -72,7 +72,7 @@ const projectsData = [
 const ProjectsPage = () => {
   return (
     <div className="projects-page">
-      <Header />
+      <Header sticky={true}/>
       <div className="top-text">
         <h1>Projects</h1>
         <h2>Some Stuff I've Made</h2>

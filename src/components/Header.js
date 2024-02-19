@@ -3,13 +3,20 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css"; // Import your CSS file for styling
 
-const Header = () => {
+const Header = ({ sticky }) => {
   const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
+    const offset1 = window.scrollY;
+    if(sticky || offset1 > 550)
+    {
+      setIsSticky(true);
+    }
+    
     const handleScroll = () => {
+      setIsSticky(true);
       const offset = window.scrollY;
-      if (offset > 550) {
+      if (offset > 550 || sticky) {
         setIsSticky(true);
       } else {
         setIsSticky(false);

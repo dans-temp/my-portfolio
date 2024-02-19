@@ -4,6 +4,7 @@
     margin-top: 50px;
     color: #FB0;
     text-shadow: -0.2em 0.2em 0 #20948B;
+    padding-top: 30px;
 }
 
 .top-text h1 {
@@ -22,6 +23,8 @@
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 .projects-grid a {
@@ -33,7 +36,8 @@
   .project-item {
     position: relative;
     overflow: hidden;
-    background-color: white;
+    background-color: beige;
+    color: #333;
     border-radius: 10px;
     box-shadow: -5px 5px 0 #20948B,-5px 5px 0 #20948B inset;
     border: 5px solid #FFBB00;
@@ -68,3 +72,12 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
+
+  @media (max-width: 720px) {
+    .projects-grid {
+        display: block;
+    }
+  }
+
+ 
