@@ -76,59 +76,7 @@
   .icon-box
   {
     display: flex;
+    min-width: 260px;
   }
 
 
-
-
-  /* Header.css */
-/* Hamburger button styles */
-.hamburger {
-  display: none; /* Hide by default on desktop */
-  cursor: pointer;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.open {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-/* Mobile menu styles */
-.mobile-menu {
-  display: none; /* Hide by default on desktop */
-}
-
-.open {
-  display: block;
-}
-
-/* Show on mobile only */
-.mobile-only {
-  display: none;
-}
-
-/* Hide on mobile */
-.desktop-menu {
-  display: block;
-}
-
-@media only screen and (max-width: 768px) {
-  .hamburger {
-    display: block; /* Show hamburger button on mobile */
-  }
-
-  .desktop-menu {
-    display: none; /* Hide desktop menu on mobile */
-  }
-
-  .mobile-only {
-    display: inline; /* Show mobile-only elements on mobile */
-  }
-}

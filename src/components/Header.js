@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <div className={`header ${isSticky ? "sticky" : ""}`}>
-      <Link to="/home" className="link icon-box"><img className="icon" src="/assets/icon.png"></img>Daniel Goresht</Link>
+      <Link to="/home" className="link icon-box"><img className="icon" src="/assets/icon.png"></img>Dan Goresht</Link>
       <div className="link-container">
         <Link to="/projects" className="link special-link">Projects</Link>
         <Link to="/about" className="link special-link">About</Link>

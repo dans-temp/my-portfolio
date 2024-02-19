@@ -2,19 +2,22 @@
 import React from "react";
 import Header from "./Header.js";
 import "./LandingPage.css";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
     <div className="landing-page">
+      <div>
       <section className="hero-section">
         <div className="gradient-overlay"></div>
         <img src="/assets/profile2-cropped.png" alt="Daniel Goresht" className="profile-image" />
         <div className="content">
-          <h1>Daniel Goresht</h1>
+          <h1>Dan Goresht</h1>
           <p>Software Developer</p>
           <p><img src="/assets/location-pin-icon.svg" alt="Location Pin" className="location-icon" /> Calgary, Alberta</p>
         </div>
       </section>
+      </div>
       <Header />
       <div className="about-section">
         <h2>Front-End Focused, Full-Stack Adept</h2>
@@ -31,7 +34,7 @@ const LandingPage = () => {
 
       <section className="skills-section">
         <div className="container">
-          <h2>Some things I'm good at</h2>
+          <h2>Some Things I'm Good At</h2>
           <div className="skills">
             <div className="column">
               <ul className="skills-list">
@@ -66,12 +69,36 @@ const LandingPage = () => {
           Fast forward through a whirlwind of internships in the oil and gas industry during my college years, and I found myself working freelance for a short period before I landed my first job at a start up.  While growing my skills I have been lucky enough to work for startups, helping build them from the ground up.
         </p>
         <p>
-          And that's my story that's still being written... one line of csode at a time.
+          And that's my story, and it's still being written... one line of code at a time.
         </p>
+        <hr></hr>
         <p>
-          For a more traditional history of my work experience check out my <a href="https://www.linkedin.com/in/daniel-goresht-91618a101/details/experience/">Linkedin Page.</a>
+          <i>For a more traditional history of my work experience check out my <a href="https://www.linkedin.com/in/daniel-goresht-91618a101/details/experience/">Linkedin Page.</a></i>
         </p>
       </div>
+
+
+      <section className="look-around-section">
+        <div className="container">
+          <h2>Have A Look Around</h2>
+          <div className="look-around">
+            <div className="column">
+                <Link to="/projects">
+                  <div className="look-around-list">
+                    <b>Click here</b> to see some of the COOL stuff I've made.
+                  </div>
+                </Link>
+            </div>
+            <div className="column">
+                <Link to="/projects">
+                  <div className="look-around-list">
+                    <b>Click here</b> to see for some FUN facts about me.
+                  </div>
+                </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </div>
   );

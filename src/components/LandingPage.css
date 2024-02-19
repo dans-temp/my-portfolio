@@ -90,7 +90,7 @@
  /* LandingPage.css */
   .skills-section {
     background-color: #6AB187;
-    padding: 50px 0;
+    padding: 30px 0;
   }
   
   .skills-section h2 {
@@ -149,4 +149,67 @@
     padding-bottom: 30px;
     border: 5px solid #FFBB00;
     box-shadow: -5px 5px 0 #20948B,-5px 5px 0 #20948B inset;
+  }
+
+  .look-around-section .container h2 {
+    color: #20948B;
+    text-shadow: -0.1em 0.1em 0 #6AB187;
+    font-size: 32px;
+  }
+
+  .look-around-section {
+    background-color: #FFBB00;
+    padding: 30px 0;
+    padding-bottom: 100px;
+  }
+
+  .look-around-section h2 {
+    text-align: center;
+  }
+
+  .look-around-section a {
+    text-decoration: none;
+  }
+
+  .look-around {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+  .look-around-list {
+    background-color: #6AB187;
+    border: 5px solid #20948B;
+    border-radius: 10px;
+    box-shadow: 5px -5px 0 #20948B, 5px -5px 0 #20948B inset;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    transition: box-shadow 0.5s, background-color 0.5s, border 0.5s/* Transition for box-shadow and font-size */
+  }
+
+  
+  
+  .look-around-list:hover {
+    box-shadow: -5px 5px 0 #6AB187, -5px 5px 0 #6AB187 inset; /* Remove box-shadow on hover */
+    background-color: #20948B;
+    border: 5px solid #6AB187;
+  }
+  
+
+  @media (max-width: 640px) {
+    .skills {
+      flex-direction: column;
+    }
+
+    .look-around {
+        flex-direction: column;
+      }
+  
+    .column {
+      width: 100%; /* Set the width to 100% for stacking */
+      margin-bottom: 20px; /* Add some margin between stacked columns */
+    }
   }
