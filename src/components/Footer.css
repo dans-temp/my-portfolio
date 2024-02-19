@@ -1,0 +1,31 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
