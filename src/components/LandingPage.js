@@ -90,9 +90,9 @@ const LandingPage = () => {
                 </Link>
             </div>
             <div className="column">
-                <Link to="/projects">
+                <Link to="/about">
                   <div className="look-around-list">
-                    <b>Click here</b> to see for some FUN facts about me.
+                    <b>Click here</b> to see some FUN facts about me.
                   </div>
                 </Link>
             </div>

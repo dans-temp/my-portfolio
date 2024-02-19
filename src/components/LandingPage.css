@@ -59,6 +59,7 @@
 .content p {
     font-size: 2.4rem;
     margin: 0px;
+    color: beige
   }
 
 
@@ -187,7 +188,7 @@
     border: 5px solid #20948B;
     border-radius: 10px;
     box-shadow: 5px -5px 0 #20948B, 5px -5px 0 #20948B inset;
-    color: white;
+    color: beige;
     padding: 35px;
     text-align: center;
     text-shadow: -0.1em 0.1em 0 #20948B;
