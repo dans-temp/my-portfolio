@@ -55,6 +55,10 @@
     background-color: beige;
   }
   
+  .green-bg {
+    background-color: #6ab187;
+  }
+
   .mobile {
     display: none;
   }

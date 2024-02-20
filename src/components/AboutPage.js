@@ -33,7 +33,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <div className="about-section">
+      <div className="about-section green-bg">
       <div className="image-column mobile">
           <img src="assets/sean.png" />
         </div>
