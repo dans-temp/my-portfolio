@@ -19,6 +19,7 @@ const Header = ({ sticky }) => {
     const handleScroll = () => {
       setIsSticky(true);
       const offset = window.scrollY;
+      console.log(offset)
       if (offset > 550 || sticky) {
         setIsSticky(true);
       } else {
@@ -43,7 +44,7 @@ const Header = ({ sticky }) => {
   return (
     <div>
       <div className={`${isSticky ? "filler-pad" : ""}`}></div>
-      <div className={`header ${isSticky ? "sticky" : ""}`}>
+      <div className={`header ${isSticky ? "sticky" : "menu-up"}`}>
         <Link to="/home" className="link icon-box"><img className="icon" src="assets/icon.png"></img><div className="header-name">Dan Goresht</div></Link>
         <div className="link-container">
           <Link to="/projects" className="link special-link hide-mobile">Projects</Link>

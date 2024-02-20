@@ -6,11 +6,13 @@ import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
 import ProjectsPage from "./components/ProjectsPage";
 import AboutPage from "./components/AboutPage";
+import ScrollToTopOnMount from "./components/ScrollToTopOnMount";
 import "./App.css"; // Import your CSS file for styling
 
 function App() {
   return (
     <Router>
+      <ScrollToTopOnMount />
       <div className="App">
         <main>
           <Routes>

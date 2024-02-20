@@ -16,6 +16,10 @@
     left: 0;
     z-index: 1000; /* Ensure the header is above other content */
   }
+
+  .menu-up .dropdown-menu {
+    top: 630px;
+  }
   
   .link-container {
     padding-right: 150px;
@@ -118,6 +122,7 @@
     padding-left: 25%;
     height: 0px; 
     overflow: hidden; 
+    text-align: center;
     transition: height 0.7s ease;    
   }
 

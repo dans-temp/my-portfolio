@@ -20,7 +20,7 @@ const AboutPage = () => {
                 <h2>Magic the Gathering</h2>
                 <br></br>
                 <p>
-                    One of my other hobbies is playing completive Magic the Gathering. I have been playing since 2010 and have been lucky enough to play in the Magic the Gathering Pro Tour a few times.
+                    One of my other hobbies is playing competitive Magic the Gathering. I have been playing since 2010 and have been lucky enough to play in the Magic the Gathering Pro Tour a few times.
                 </p>
                 <br></br>
                 <p>
