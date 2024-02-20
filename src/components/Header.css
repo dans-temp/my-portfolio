@@ -116,10 +116,10 @@
     position: absolute;
     top: 100%; /* Position below the hamburger button */
     left: 0;
+    right: 0;
     background-color: #333;
     flex-direction: column;
     display: none;
-    padding-left: 25%;
     height: 0px; 
     overflow: hidden; 
     text-align: center;
