@@ -13,6 +13,7 @@
   .header.sticky {
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 1000; /* Ensure the header is above other content */
   }
   
@@ -41,10 +42,7 @@
   
   .header .special-link {
     color: #FFBB00; /* Color for Projects and About links */
-  }
-  
-  .header .special-link:hover {
-    color: #fff; /* Change color on hover */
+    transition: color 0.2s ease-in-out;
   }
   
   .header .special-link::after {
@@ -53,14 +51,17 @@
     width: 0;
     height: 6px;
     background-color: #FFBB00; /* Color of the underline */
-    transition: width 0.6s, background-color 0.6s ease-in-out;; /* Animation duration */
+    transition: width 0.6s, background-color 0.6s ease-in-out; /* Animation duration */
   }
   
   .header .special-link:hover::after {
     width: 100%; /* Expand underline on hover */
-    background-color: #fff;
+    background-color: beige;
   }
 
+  .header .special-link:hover {
+    color: beige; /* Change color on hover */
+  }
   
   .icon
   {
@@ -76,7 +77,103 @@
   .icon-box
   {
     display: flex;
-    min-width: 260px;
+    min-width: 240px;
   }
 
+  .hidden {
+    display: none;
+  }
 
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .line {
+    width: 40px;
+    height: 6px;
+    background-color: #FFBB00;
+    margin: 5px;
+    transition: transform 0.4s ease;
+  }
+
+  .hamburger.clicked .line:nth-child(1) {
+    transform: translateY(13px) translateX(10px) rotate(45deg); /* Adjusted for width */
+  }
+  
+  .hamburger.clicked .line:nth-child(2) {
+    opacity: 0; /* Hide the middle line */
+  }
+  
+  .hamburger.clicked .line:nth-child(3) {
+    transform: translateY(-9px) translateX(11px) rotate(-45deg); /* Adjusted for width */
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Position below the hamburger button */
+    left: 0;
+    background-color: #333;
+    flex-direction: column;
+    display: none;
+    padding-left: 25%;
+    height: 0px; 
+    overflow: hidden; 
+    transition: height 0.7s ease;    
+  }
+
+  .dropdown-menu.show {
+    height: 280px;  
+  }
+
+  .dropdown-menu .special-link {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    max-width: 25%;
+  }
+
+  .landing-page .filler-pad
+  {
+    padding-top: 85px;
+  }
+
+  @media (max-width: 950px) {
+    .link {
+      padding-left: 55px;
+    }
+    
+  }
+
+  @media (max-width: 650px) {
+    .header-name
+    {
+      display: none;
+    }
+    .icon
+    {
+      transform: translateY(0px);
+    }
+    .icon-box
+    {
+      min-width: 0;
+    }
+    .link-container {
+      padding-right: 40px;
+    }
+  
+    .hide-mobile {
+      display: none; 
+    }
+  
+    .hamburger {
+      display: block; 
+    }
+
+    .dropdown-menu {
+      width: 100%;
+      display: flex;
+    }
+    .header
+    {
+      min-height: 40px;
+    }
+  }

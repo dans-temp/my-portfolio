@@ -63,10 +63,10 @@ const LandingPage = () => {
           Ever since I was a kid, I've been drawn to computers. Whether I was lost in a good video game, dabbling in digital art, or just learning the ins and outs of Windows, you could always find me glued to a screen.
         </p>
         <p>
-          High school was where I dipped my toes into the programming pond. I'll admit, I wasn't exactly a coding prodigy back then, but hey, at least I knew where I wanted to go next: straight to university for computer science.
+          High school was where I dipped my toes into the programming pond. I wasn't exactly a coding prodigy back then, but at least I knew where I wanted to go next: straight to university for computer science.
         </p>
         <p>
-          Fast forward through a whirlwind of internships in the oil and gas industry during my college years, and I found myself working freelance for a short period before I landed my first job at a start up.  While growing my skills I have been lucky enough to work for startups, helping build them from the ground up.
+          Fast forward through a handfull of internships during my college years, and I found myself working freelance for a short period before I landed my first job at a start up.  While growing my skills I have been lucky enough to work for startups, helping build them from the ground up.
         </p>
         <p>
           And that's my story, and it's still being written... one line of code at a time.

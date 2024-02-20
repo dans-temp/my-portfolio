@@ -217,4 +217,26 @@
       width: 100%; /* Set the width to 100% for stacking */
       margin-bottom: 20px; /* Add some margin between stacked columns */
     }
+    .about-section {
+      padding: 40px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .content {
+      padding: 1rem;
+    }
+
+    .content h1 {
+      font-size: 4rem;
+      text-align: center;
+      padding-top: 120px;
+      padding-bottom: 30px;
+    }
+
+    .content p {
+      text-align: center;
+      font-size: 2rem;
+    }
+    
   }
