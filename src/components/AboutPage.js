@@ -28,7 +28,7 @@ const AboutPage = () => {
                 </p>
                 <br></br>
                 <p>
-                    I don't play as much these days, but I still love the game.
+                    I even met my wife while playing MTG, and although I don't play as much these days, I still love the game.
                 </p>
           </div>
         </div>

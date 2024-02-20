@@ -28,7 +28,7 @@ const LandingPage = () => {
           These days, my focus is mainly on web development. I enjoy leveraging my product background to cook up software that's not just functional, but also a joy to interact with.
         </p>
         <p>
-          Beyond the professional realm, making cool things is more than just a job to me; it's a full-blown passion and a favorite pastime.
+          Beyond the professional realm, making cool things is more than just a job to me, it's a full-blown passion and a favorite pastime.
         </p>
       </div>
 
