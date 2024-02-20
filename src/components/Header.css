@@ -117,6 +117,8 @@
     top: 100%; /* Position below the hamburger button */
     left: 0;
     right: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     background-color: #333;
     flex-direction: column;
     display: none;
