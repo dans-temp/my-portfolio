@@ -10,11 +10,11 @@ const LandingPage = () => {
       <div>
       <section className="hero-section">
         <div className="gradient-overlay"></div>
-        <img src="/assets/profile2-cropped.png" alt="Daniel Goresht" className="profile-image" />
+        <img src="assets/profile2-cropped.png" alt="Daniel Goresht" className="profile-image" />
         <div className="content">
           <h1>Dan Goresht</h1>
           <p>Software Developer</p>
-          <p><img src="/assets/location-pin-icon.svg" alt="Location Pin" className="location-icon" /> Calgary, Alberta</p>
+          <p><img src="assets/location-pin-icon.svg" alt="Location Pin" className="location-icon" /> Calgary, Alberta</p>
         </div>
       </section>
       </div>

@@ -44,7 +44,7 @@ const Header = ({ sticky }) => {
     <div>
       <div className={`${isSticky ? "filler-pad" : ""}`}></div>
       <div className={`header ${isSticky ? "sticky" : ""}`}>
-        <Link to="/home" className="link icon-box"><img className="icon" src="/assets/icon.png"></img><div className="header-name">Dan Goresht</div></Link>
+        <Link to="/home" className="link icon-box"><img className="icon" src="assets/icon.png"></img><div className="header-name">Dan Goresht</div></Link>
         <div className="link-container">
           <Link to="/projects" className="link special-link hide-mobile">Projects</Link>
           <Link to="/about" className="link special-link hide-mobile">About</Link>
