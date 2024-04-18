@@ -20,7 +20,7 @@ const LandingPage = () => {
       </div>
       <Header sticky={false}/>
       <div className="about-section">
-        <h2>Front-End Focused, Full-Stack Adept</h2>
+        <h2>Full-Stack Adept</h2>
         <p>
           Hi, I'm Dan.  I've been building digital products since 2015. Over the years, I've dabbled in various aspects of bringing ideas to life, from brainstorming strategies to diving into UX research, tinkering with databases, and diving deep into the development process.
         </p>
